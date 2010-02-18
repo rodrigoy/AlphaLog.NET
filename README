@@ -1,0 +1,32 @@
+AlphaLog Armazens Inteligentes
+==============================
+
+Esta é a arquitetura inicial do projeto AlphaLog do treinamento Extreme Programming e Test-Driven 
+Development da Aspercom!
+
+http://www.aspercom.com.br/ead/course/view.php?id=16
+
+O projeto é uma solution do Visual Studio 2008 baseada no projeto Sharp-Architecture veja 
+http://github.com/codai/Sharp-Architecture .Estamos utilizando:
+
+Web Framework: Asp.Net MVC
+IoC Container: Castle Windsor
+Persistência: nHibernate com Fluent e Automapping
+Testing: nUnit
+Mocking: RhinoMocks
+
+Para fazer rodar abra a solution no Visual Studio e simplesmente altere o endereço do banco de dados 
+constante no seguinte arquivo:
+
+/app/AlphaLog.Web/NHibernate.config
+
+É muito importante que cada aluno estude este exemplo e configure o seu ambiente. Recomendamos o uso 
+da ferramenta ReSharper para o treinamento.
+
+http://www.jetbrains.com/resharper/
+
+Caso não tenha o ReSharper será necessário instalar a GUI do nUnit.
+
+Rodrigo Yoshima
+Instrutor
+rodrigoy@aspercom.com.br
